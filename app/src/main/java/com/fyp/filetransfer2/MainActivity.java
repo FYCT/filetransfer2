@@ -363,6 +363,7 @@ public class MainActivity extends ActionBarActivity {
                 FileOpenDialog.Default_File_Name = "";
                 FileOpenDialog.chooseFile_or_Dir();*/
 
+                //Choose File
                 Intent intent = new Intent(MainActivity.this, FileChooser.class);
                 startActivity(intent);
             }

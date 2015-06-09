@@ -4,9 +4,7 @@
 
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
-
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
 
     <application
         android:allowBackup="true"
@@ -25,6 +23,10 @@
         <activity
             android:name=".BoundDevices"
             android:label="@string/title_activity_bound_devices" >
+        </activity>
+        <activity
+            android:name=".FileChooser"
+            android:label="@string/title_activity_file_chooser" >
         </activity>
     </application>
 

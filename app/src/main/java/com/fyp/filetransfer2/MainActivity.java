@@ -18,11 +18,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.io.BufferedInputStream;
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -336,7 +332,7 @@ public class MainActivity extends ActionBarActivity {
 
             @Override
             public void onClick(View v) {
-                ///////////////////////////////////////////////////////////////////////////////////////////////// //Create FileOpenDialog and register a callback /////////////////////////////////////////////////////////////////////////////////////////////////
+/*                ///////////////////////////////////////////////////////////////////////////////////////////////// //Create FileOpenDialog and register a callback /////////////////////////////////////////////////////////////////////////////////////////////////
                 SimpleFileDialog FileOpenDialog = new SimpleFileDialog(MainActivity.this, "FileOpen", new SimpleFileDialog.SimpleFileDialogListener() {
                     @Override
                     public void onChosenDir(String chosenDir) {
@@ -365,7 +361,10 @@ public class MainActivity extends ActionBarActivity {
 
                 //You can change the default filename using the public variable "Default_File_Name"
                 FileOpenDialog.Default_File_Name = "";
-                FileOpenDialog.chooseFile_or_Dir();
+                FileOpenDialog.chooseFile_or_Dir();*/
+
+                Intent intent = new Intent(MainActivity.this, FileChooser.class);
+                startActivity(intent);
             }
         });
  }

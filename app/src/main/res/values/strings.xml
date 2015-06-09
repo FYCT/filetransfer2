@@ -11,13 +11,11 @@
     <string name="serverSocket">Server (Send)</string>
     <string name="firstDeviceAddress"> Address of the first Device</string>
     <string name="getFile">Get File</string>
-
-
     <string name="action_settings">Settings</string>
     <string name="title_activity_bound_devices">BoundDevices</string>
     <string name="hello_world">Hello world!</string>
 
-    <!--  DeviceListActivity -->
+    <!-- DeviceListActivity -->
     <string name="scanning">scanning for devices...</string>
     <string name="select_device">select a device to connect</string>
     <string name="none_paired">No devices have been paired</string>
@@ -25,5 +23,6 @@
     <string name="title_paired_devices">Paired Devices</string>
     <string name="title_other_devices">Other Available Devices</string>
     <string name="button_scan">Scan for devices</string>
+    <string name="title_activity_file_chooser">FileChooser</string>
 
 </resources>
